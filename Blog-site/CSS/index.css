@@ -170,3 +170,58 @@ fieldset {
   color: grey;
   margin-top: -12px;
 }
+
+/*All post section  */
+
+.post-text {
+  margin-left: 60px;
+  margin-top: 80px;
+  font-size: 22px;
+}
+
+.light-bulb {
+  width: 260px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.grid-content {
+  background-color: white;
+  width: 270px;
+  height: 330px;
+  border-radius: 10px;
+  margin-left: 60px;
+  border: 1px solid rgb(238, 234, 234);
+  margin-bottom: 20px;
+}
+
+.grid-tech {
+  border: 1px solid rgba(244, 237, 237, 0.819);
+  width: 90px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: rgba(244, 237, 237, 0.819);
+  color: rgb(63, 63, 235);
+}
+
+.grid-text {
+  font-size: large;
+  font-weight: bold;
+}
+.grid-desc {
+  margin-left: 10px;
+}
+
+.grid-author {
+  margin-top: 15px;
+  font-size: 14px;
+  margin-left: px;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
