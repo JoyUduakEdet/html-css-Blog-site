@@ -217,11 +217,148 @@ fieldset {
 .grid-author {
   margin-top: 15px;
   font-size: 14px;
-  margin-left: px;
 }
 
+/* read up this styling and the one in my phone for indepth knowledge */
 .post-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 350px);
   grid-gap: 10px;
+  justify-content: center;
+  grid-auto-rows: minmax(350px, auto);
+}
+
+/* This is the footer styling */
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  background-color: #e8e8ea;
+  height: 480px;
+}
+
+.about {
+  width: 250px;
+  line-height: 1.5;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.quick-links {
+  margin-top: 50px;
+}
+
+.quick-links a {
+  display: block;
+  line-height: 2;
+  color: black;
+}
+
+.categories {
+  margin-top: 50px;
+}
+
+.categories a {
+  display: block;
+  line-height: 2;
+  color: black;
+}
+
+.newsletter {
+  background-color: white;
+  height: 170px;
+  width: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.news-text {
+  text-align: center;
+}
+
+form input {
+  width: 250px;
+  padding: 9px;
+  border: 1px solid rgb(203, 199, 199);
+  border-radius: 3px;
+}
+
+button {
+  width: 270px;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.second-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  margin-top: 400px;
+  border-top: 1px solid rgb(186, 180, 180);
+}
+
+.footer-logo {
+  margin-left: 80px;
+}
+
+.footer-span1 {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 55px;
+  font-size: 15px;
+}
+
+.footer-span2 {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 140px;
+  font-size: 15px;
+}
+
+.footer-text {
+  margin-left: 55px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.footer-links {
+  margin-left: 900px;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: -13px;
+}
+
+.footer-links a {
+  color: black;
+}
+
+@media screen and (min-width: 419px) and (max-width: 600px) {
+  .header-section {
+  }
+
+  .links {
+  }
+
+  .logo-img {
+    margin-top: 21px;
+    width: 27px;
+    margin-left: 16px;
+  }
+  .Logo-text {
+    margin-left: 50px;
+    font-size: 26px;
+  }
+
+  .bg-img {
+    width: 500px;
+  }
 }
