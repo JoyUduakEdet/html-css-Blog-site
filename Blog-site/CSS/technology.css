@@ -1,0 +1,44 @@
+.tech-oulet {
+  margin-top: 100px;
+  margin-left: 5px;
+}
+
+.bg-img1 {
+  width: 1250px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.back-text {
+  margin-left: 50px;
+  margin-top: -220px;
+  position: absolute;
+}
+
+.tech-desc1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.author-desc1 {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 60px;
+  color: white;
+  font-weight: 200px;
+}
+
+.post-grid {
+  margin-top: 80px;
+}
+
+.load-more {
+  margin-left: 640px;
+  background-color: white;
+  color: black;
+  width: 100px;
+  border-color: rgb(193, 190, 190);
+  font-size: 15px;
+  margin-top: 30px;
+}

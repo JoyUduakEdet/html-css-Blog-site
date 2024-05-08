@@ -1,3 +1,71 @@
 .single-outlet {
-  margin-top: 100px;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+.single-tech {
+  border: 1px solid blue;
+  width: 90px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: blue;
+  color: white;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.single-tech-text {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: -2px;
+}
+
+.post-banner {
+  width: 1200px;
+  height: 550px;
+  margin-left: 35px;
+}
+
+.single-banner {
+  margin-top: 20px;
+}
+
+.grid-author {
+  margin-top: -50px;
+  height: 50px;
+}
+
+.post {
+  margin-top: 20px;
+}
+
+.post-content {
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
+.post-sub {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+fieldset {
+  font-family: "Times New Roman", Times, serif;
+  width: 1000px;
+  font-style: italic;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #e8e8ea;
+  height: 60px;
+  border: 1px solid #e8e8ea;
+  box-shadow: -5px 3px 6px rgba(0, 0, 0, 0.233);
+  font-size: 18px;
+}
+
+.quote-fieldset {
+  margin-top: 20px;
+  height: 100px;
+  padding-left: 20px;
+  margin-left: 110px;
 }

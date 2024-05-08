@@ -174,7 +174,7 @@ fieldset {
 /*All post section  */
 
 .post-text {
-  margin-left: 60px;
+  margin-left: 130px;
   margin-top: 80px;
   font-size: 22px;
 }
@@ -226,6 +226,10 @@ fieldset {
   grid-gap: 10px;
   justify-content: center;
   grid-auto-rows: minmax(350px, auto);
+}
+
+.load-more {
+  width: 150px !important;
 }
 
 /* This is the footer styling */
