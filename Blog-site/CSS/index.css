@@ -222,7 +222,8 @@ fieldset {
 /* read up this styling and the one in my phone for indepth knowledge */
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 350px);
+  grid-template-columns: repeat(3, 350px);
+  /* grid-template-columns: repeat(auto-fit, 350px); */
   grid-gap: 10px;
   justify-content: center;
   grid-auto-rows: minmax(350px, auto);
@@ -345,24 +346,25 @@ button {
   color: black;
 }
 
-@media screen and (min-width: 419px) and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .header-section {
+    display: flex;
+    width: 80%;
   }
 
-  .links {
+  nav ul {
+    gap: 5px;
   }
-
   .logo-img {
-    margin-top: 21px;
-    width: 27px;
-    margin-left: 16px;
+    width: 25px;
   }
+
   .Logo-text {
     margin-left: 50px;
-    font-size: 26px;
+    font-size: 22px;
+    margin-top: 26px;
   }
 
-  .bg-img {
-    width: 500px;
+  .second-text {
   }
 }
